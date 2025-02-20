@@ -1,6 +1,6 @@
 import humming from "../../assets/humming.jpg";
-import NavBar from "../../components/NavBar/NavBar";
 import Banner from "../../components/Banner/Banner";
+import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/footer/Footer";
 import SearchBooks from "../../components/openLibraryAPI/SearchBooks";
 import TopSellers from "../../components/topselling/TopSellers";

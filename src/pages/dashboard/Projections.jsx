@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import { MdIncompleteCircle } from "react-icons/md";
 
+const BASE_URL = `${import.meta.env.VITE_BACKEND_URL}`;
+
 const Projections = () => {
   const [loading, setLoading] = useState(true);
   const [mongoData, setMongoData] = useState({});
@@ -9,7 +11,7 @@ const Projections = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`http://localhost:5000/api/auth/admin`, {
+        const response = await fetch(`${BASE_URL}/api/auth/admin`, {
           headers: {
             Authorization: `Bearer ${token}`,
             "Content-Type": "application/json",

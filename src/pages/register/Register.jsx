@@ -1,9 +1,9 @@
 import { NavLink } from "react-router-dom";
-import Footer from "../../components/footer/Footer";
+import Footer from "../../components/footer/Footer.jsx";
 import { useState } from "react";
 import { FaGoogle } from "react-icons/fa";
 import { useForm } from "react-hook-form";
-import { useAuthStore } from "../../store/AuthContext";
+import { useAuthStore } from "../../store/AuthContext.js";
 import { useNavigate } from "react-router-dom";
 
 const Register = () => {

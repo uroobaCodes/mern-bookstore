@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import bannerImg from "../../assets/banner.png";
-import { useBookStore } from "../../store/bookStore";
+import { useBookStore } from "../../store/bookStore.js";
 import { NavLink } from "react-router-dom";
 
 const Banner = () => {

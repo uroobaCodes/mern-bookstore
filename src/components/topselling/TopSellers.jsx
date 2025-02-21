@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { getUniqueCategories } from "../../utils/uniqueCategories";
-import Card from "../card/Card";
-import { useBookStore } from "../../store/bookStore";
+import { getUniqueCategories } from "../../utils/uniqueCategories.js";
+import Card from "../card/Card.jsx";
+import { useBookStore } from "../../store/bookStore.js";
 // swiper
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";

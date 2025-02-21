@@ -6,11 +6,11 @@ import { GrUserAdmin } from "react-icons/gr";
 import { FaShoppingCart } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import avatar from "../../assets/avatar.png";
-import useCartStore from "../../store/cartStore";
+import useCartStore from "../../store/cartStore.js";
 // working on user profile pic and sign in
-import { useAuthStore } from "../../store/AuthContext";
+import { useAuthStore } from "../../store/AuthContext.js";
 import { useNavigate } from "react-router-dom";
-import { useAdminAppContext } from "../../store/adminAppContext";
+import { useAdminAppContext } from "../../store/adminAppContext.js";
 import adminavatar from "../../assets/adminavatar.png";
 // bringing books for search bar:
 import { useBookStore } from "../../store/bookStore";

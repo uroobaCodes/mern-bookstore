@@ -1,8 +1,8 @@
-import { useBookStore } from "../../store/bookStore";
+import { useBookStore } from "../../store/bookStore.js";
 import { useForm } from "react-hook-form";
 import { useState } from "react";
-import InputField from "./InputField";
-import SelectField from "./SelectField";
+import InputField from "./InputField.jsx";
+import SelectField from "./SelectField.jsx";
 
 const AddNewBook = () => {
   const [imageFile, setImageFile] = useState(null);

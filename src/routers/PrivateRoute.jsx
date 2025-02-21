@@ -1,5 +1,5 @@
 import { Navigate } from "react-router-dom";
-import { useAuthStore } from "../store/AuthContext";
+import { useAuthStore } from "../store/AuthContext.js";
 
 const PrivateRoute = ({ children }) => {
   const { currentUser, loading } = useAuthStore();

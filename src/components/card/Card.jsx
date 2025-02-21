@@ -1,6 +1,6 @@
 import { FaShoppingCart } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
-import useCartStore from "../../store/cartStore";
+import useCartStore from "../../store/cartStore.js";
 import { toast } from "react-toastify";
 
 const Card = ({

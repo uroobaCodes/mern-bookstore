@@ -1,11 +1,11 @@
 import { useParams } from "react-router-dom";
-import { useBookStore } from "../../store/bookStore";
+import { useBookStore } from "../../store/bookStore.js";
 import { useEffect, useState } from "react";
 import { IoTrendingUp } from "react-icons/io5";
 import { IoTrendingDownOutline } from "react-icons/io5";
-import useCartStore from "../../store/cartStore";
+import useCartStore from "../../store/cartStore.js";
 import { toast } from "react-toastify";
-import Footer from "../../components/footer/Footer";
+import Footer from "../../components/footer/Footer.jsx";
 
 const BookDetail = () => {
   const { id } = useParams();

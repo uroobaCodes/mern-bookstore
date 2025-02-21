@@ -1,10 +1,10 @@
-import Footer from "../../components/footer/Footer";
+import Footer from "../../components/footer/Footer.jsx";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 // import below is to log out the user when admin logs in:
-import { useAuthStore } from "../../store/AuthContext";
+import { useAuthStore } from "../../store/AuthContext.js";
 import { useNavigate } from "react-router-dom";
-import { useAdminAppContext } from "../../store/adminAppContext";
+import { useAdminAppContext } from "../../store/adminAppContext.js";
 
 import axios from "axios";
 

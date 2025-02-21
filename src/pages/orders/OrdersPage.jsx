@@ -1,6 +1,6 @@
 //
-import { useAuthStore } from "../../store/AuthContext";
-import { useOrderStore } from "../../store/orderStore";
+import { useAuthStore } from "../../store/AuthContext.js";
+import { useOrderStore } from "../../store/orderStore.js";
 import { useEffect } from "react";
 
 const OrdersPage = () => {

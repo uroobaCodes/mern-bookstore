@@ -1,10 +1,10 @@
 //
 import { NavLink } from "react-router-dom";
-import useCartStore from "../../store/cartStore";
+import useCartStore from "../../store/cartStore.js";
 import { useForm } from "react-hook-form";
 import { useState } from "react";
-import { useAuthStore } from "../../store/AuthContext";
-import { useOrderStore } from "../../store/orderStore";
+import { useAuthStore } from "../../store/AuthContext.js";
+import { useOrderStore } from "../../store/orderStore.js";
 import { useNavigate } from "react-router-dom";
 import "react-international-phone/style.css";
 import { PhoneInput } from "react-international-phone";

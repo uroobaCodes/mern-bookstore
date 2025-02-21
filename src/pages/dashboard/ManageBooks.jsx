@@ -1,4 +1,4 @@
-import { useBookStore } from "../../store/bookStore";
+import { useBookStore } from "../../store/bookStore.js";
 import { NavLink, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 

@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import useCartStore from "../../store/cartStore";
+import useCartStore from "../../store/cartStore.js";
 
 const CartPage = () => {
   const { cartItems, clearCart, removeItem } = useCartStore();

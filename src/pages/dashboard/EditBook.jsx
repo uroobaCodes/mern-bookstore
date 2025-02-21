@@ -1,8 +1,8 @@
 import { useForm } from "react-hook-form";
 import { useParams } from "react-router-dom";
-import InputField from "./InputField";
-import SelectField from "./SelectField";
-import { useBookStore } from "../../store/bookStore";
+import InputField from "./InputField.jsx";
+import SelectField from "./SelectField.jsx";
+import { useBookStore } from "../../store/bookStore.js";
 import { useState, useEffect } from "react";
 
 const EditBook = () => {

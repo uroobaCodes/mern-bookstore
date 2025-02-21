@@ -3,7 +3,7 @@ import { HiViewGridAdd } from "react-icons/hi";
 import { MdOutlineManageHistory } from "react-icons/md";
 import { IoHomeOutline } from "react-icons/io5";
 import { useNavigate } from "react-router-dom";
-import { useAdminAppContext } from "../../store/adminAppContext";
+import { useAdminAppContext } from "../../store/adminAppContext.js";
 
 const Dashboard = () => {
   const navigate = useNavigate();

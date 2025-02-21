@@ -8,6 +8,8 @@ import { useAdminAppContext } from "../../store/adminAppContext.js";
 
 import axios from "axios";
 
+const BASE_URL = `${import.meta.env.VITE_BACKEND_URL}`;
+
 const Admin = () => {
   const [message, setMessage] = useState("");
 
@@ -32,15 +34,11 @@ const Admin = () => {
   const onSubmit = async (data) => {
     console.log(data);
     try {
-      const response = await axios.post(
-        `http://localhost:5000/api/auth/admin`,
-        data,
-        {
-          headers: {
-            "Content-Type": "application/json",
-          },
-        }
-      );
+      const response = await axios.post(`${BASE_URL}/api/auth/admin`, data, {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
       const auth = response.data;
       //   console.log(auth);
       if (auth.token) {

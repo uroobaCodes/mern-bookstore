@@ -1,9 +1,9 @@
 import humming from "../../assets/humming.jpg";
-import Banner from "../../components/Banner/Banner.jsx";
 import NavBar from "../../components/NavBar/NavBar.jsx";
 import Footer from "../../components/footer/Footer.jsx";
 import SearchBooks from "../../components/openLibraryAPI/SearchBooks.jsx";
 import TopSellers from "../../components/topselling/TopSellers.jsx";
+import Banner from "../../components/Banner/Banner.jsx";
 
 const HomePage = () => {
   return (

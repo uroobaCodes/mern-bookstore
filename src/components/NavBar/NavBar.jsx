@@ -13,7 +13,7 @@ import { useNavigate } from "react-router-dom";
 import { useAdminAppContext } from "../../store/adminAppContext.js";
 import adminavatar from "../../assets/adminavatar.png";
 // bringing books for search bar:
-import { useBookStore } from "../../store/bookStore";
+import { useBookStore } from "../../store/bookStore.js";
 
 const navigation = [
   { name: "Orders", href: "/orders" },

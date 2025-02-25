@@ -34,3 +34,6 @@ The frontend should now be running on http://localhost:5173.
 
 #### Final App:
 [Bookstore](https://mern-bookstore-xi.vercel.app/)
+
+#### Code breakdown on youtube: 
+[Mern Bookstore](https://www.youtube.com/watch?v=ifjJ-eqjLRs&t=43s)
